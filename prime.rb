@@ -15,3 +15,12 @@ end
 # puts prime?(3)
 # puts prime?(7)
 # puts prime?(-7)
+
+def range_me
+  range = 1..10
+  range.each do |n|
+    puts n
+  end
+end
+
+range_me
